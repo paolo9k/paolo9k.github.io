@@ -62,7 +62,7 @@
 			//////////////////////////////////////////////////////////////////
 			
 			// TODO 2 - Variable declarations 
-			
+			var PositionX = 0;
 
 			
 			/* 
@@ -71,10 +71,29 @@
 			turn it around! 
 			*/
 			function update() {
-				moveBoxTo(boardwidth)
+				"we want to increase the value of positionX by 10"
+				myVariable = myVariable + 10
+				moveBoxTo(positionX)
 
 			};
+			var positionX = 0;
 
+// during update... 
+// Frame 1
+positionX = 0 + 10;         // positionX = 10
+moveBoxTo(positionX);
+
+// Frame 2
+positionX = 10 + 10;         // positionX = 20
+moveBoxTo(positionX);
+
+// Frame 3
+positionX = 20 + 10;         // positionX = 30
+moveBoxTo(positionX);
+
+// Frame 4
+positionX = 30 + 10;         // positionX = 40
+moveBoxTo(positionX);
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
 			it should increase the points total, increase the speed, and move the box to

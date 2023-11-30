@@ -27,7 +27,7 @@ var init = function (window) {
         function drawCircles()
 
         // TODO 3 / 7 : Call the drawCircle() function 
-
+drawCircles();
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
